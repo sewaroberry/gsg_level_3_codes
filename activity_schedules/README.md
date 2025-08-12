@@ -1,5 +1,9 @@
 ## Assignment: Activity Schedules (No Two Consecutive Activities)
 
+## Author
+**Name:** Sewar Wazwaz  
+**Email:** wazwazsewar@gmail.com 
+
 **Problem Statement:**  
 Given a number of days `n` (1 ≤ n ≤ 10), list all possible sequences of daily activities using the set:  
 `{"Swimming", "Running", "Football"}`  
