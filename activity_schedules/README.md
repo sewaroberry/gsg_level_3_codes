@@ -12,13 +12,13 @@ with the constraint that **no two consecutive days** can have the same activity.
 2
 
 **Output**
-Football Running
-Football Swimming
-Running Football
-Running Swimming
-Swimming Football
-Swimming Running
-COUNT: 6
+Football Running  
+Football Swimming  
+Running Football  
+Running Swimming  
+Swimming Football  
+Swimming Running  
+COUNT: 6  
 
 ---
 
