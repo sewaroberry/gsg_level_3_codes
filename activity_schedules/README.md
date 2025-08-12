@@ -11,7 +11,7 @@ with the constraint that **no two consecutive days** can have the same activity.
 **Input**
 2
 
-**Output**
+**Output**  
 Football Running  
 Football Swimming  
 Running Football  
