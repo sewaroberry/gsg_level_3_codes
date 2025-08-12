@@ -8,6 +8,16 @@ using namespace std;
 
 int cnt = 0;
 
+int Power(int a, int b) {
+    int res = 1;
+
+    for(int i = 0; i < b; i++) {
+        res *= a;
+    }
+
+    return res;
+}
+
 void ScheduleActivities(int NumOfDays, int CurrentDay, vector<string>& Schedule) {
     vector <string> Activities = {"Football", "Swimming", "Running"};
     int M = Activities.size();
@@ -39,6 +49,7 @@ signed main()
     ScheduleActivities(Days, 0, Schedule);
 
     cout << "Count: " << cnt << endl;
+    // cout << "Count: " << 3 * Power(2, Days - 1) << endl;
 
     return 0;
 }
