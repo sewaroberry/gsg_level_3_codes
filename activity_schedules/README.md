@@ -26,7 +26,7 @@ COUNT: 6
 
 ---
 
-### Expected COUNT Formula
+### COUNT Formula
 For `n` days:  
 Total schedules = 3 × 2^(n - 1)
 
