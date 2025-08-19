@@ -37,7 +37,7 @@ signed main()
             for(int j = 0; j < M; j++) {
                 cout << cur[j] << ' ';
             }
-            cout << endl;
+            cout << '\n';
 
             i++; cnt++;
             continue;
@@ -45,31 +45,29 @@ signed main()
 
         string Prev = (cur.empty() ? "Nothing" : cur.back());
 
-        vector <string> temp = cur;
-
         if(Prev != "Football") {
-            temp.push_back("Football");
-            A.push_back(temp);
+            cur.push_back("Football");
+            A.push_back(cur);
+            cur.pop_back();
         }
-
-        temp = cur;
 
         if(Prev != "Swimming") {
-            temp.push_back("Swimming");
-            A.push_back(temp);
+            cur.push_back("Swimming");
+            A.push_back(cur);
+            cur.pop_back();
         }
 
-        temp = cur;
-
         if(Prev != "Running") {
-            temp.push_back("Running");
-            A.push_back(temp);
+            cur.push_back("Running");
+            A.push_back(cur);
+            cur.pop_back();
         }
 
         i++;
     }
 
-    cout << "Count: " << cnt << endl;
+    cout << "Count: " << cnt << '\n';
+    // cout << "Count: " << 3 * Power(2, N - 1) << '\n';
 
     return 0;
 }
